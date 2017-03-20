@@ -8,8 +8,8 @@ object BuildCSE8803 extends Build {
   lazy val projVersion = "0.0.1"
   lazy val projOrganization = "com.argcv"
   lazy val projScalaVersion = "2.11.8"
-  lazy val hadoopVersion = "2.7.2"
-  lazy val sparkVersion = "2.0.0"
+  lazy val hadoopVersion = "2.7.3"
+  lazy val sparkVersion = "2.1.0"
 
   lazy val commonSettings = Seq(
     name := id,
